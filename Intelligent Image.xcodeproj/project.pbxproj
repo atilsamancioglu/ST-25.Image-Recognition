@@ -12,6 +12,7 @@
 		FC84B7D91EFD8A7000C1864E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC84B7D71EFD8A7000C1864E /* Main.storyboard */; };
 		FC84B7DB1EFD8A7000C1864E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC84B7DA1EFD8A7000C1864E /* Assets.xcassets */; };
 		FC84B7DE1EFD8A7000C1864E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC84B7DC1EFD8A7000C1864E /* LaunchScreen.storyboard */; };
+		FC84B7E61EFD8CB000C1864E /* GoogLeNetPlaces.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = FC84B7E51EFD8CB000C1864E /* GoogLeNetPlaces.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		FC84B7DA1EFD8A7000C1864E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FC84B7DD1EFD8A7000C1864E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FC84B7DF1EFD8A7000C1864E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC84B7E51EFD8CB000C1864E /* GoogLeNetPlaces.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = GoogLeNetPlaces.mlmodel; path = ../../../Downloads/GoogLeNetPlaces.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				FC84B7DA1EFD8A7000C1864E /* Assets.xcassets */,
 				FC84B7DC1EFD8A7000C1864E /* LaunchScreen.storyboard */,
 				FC84B7DF1EFD8A7000C1864E /* Info.plist */,
+				FC84B7E51EFD8CB000C1864E /* GoogLeNetPlaces.mlmodel */,
 			);
 			path = "Intelligent Image";
 			sourceTree = "<group>";
@@ -137,6 +140,7 @@
 			files = (
 				FC84B7D61EFD8A7000C1864E /* ViewController.swift in Sources */,
 				FC84B7D41EFD8A7000C1864E /* AppDelegate.swift in Sources */,
+				FC84B7E61EFD8CB000C1864E /* GoogLeNetPlaces.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
